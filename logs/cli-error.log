@@ -1,0 +1,67 @@
+2019-10-04 17:53:42 Error: [RuntimeException] Unknown command `cake policy`. Run `cake --help` to get the list of valid commands. in /var/www/html/riafo/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 346
+Stack Trace:
+#0 /var/www/html/riafo/vendor/cakephp/cakephp/src/Console/CommandRunner.php(157): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'policy')
+#1 /var/www/html/riafo/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2019-10-04 18:54:43 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moodle.users' doesn't exist in /var/www/html/riafo/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 133
+Stack Trace:
+#0 /var/www/html/riafo/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(99): Cake\Database\Schema\Collection->_reflect('Column', 'users', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /var/www/html/riafo/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('users', Array)
+#2 /var/www/html/riafo/vendor/cakephp/cakephp/src/ORM/Table.php(560): Cake\Database\Schema\CachedCollection->describe('users')
+#3 /var/www/html/riafo/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(325): Cake\ORM\Table->getSchema()
+#4 /var/www/html/riafo/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(222): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\UsersTable), Array)
+#5 /var/www/html/riafo/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\UsersTable))
+#6 /var/www/html/riafo/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\UsersTable), 'users', 'Users')
+#7 /var/www/html/riafo/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Users')
+#8 /var/www/html/riafo/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\ModelTask->main('users')
+#9 /var/www/html/riafo/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 /var/www/html/riafo/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Cake\Console\Shell->runCommand(Array, true)
+#11 /var/www/html/riafo/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 /var/www/html/riafo/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moodle.users' doesn't exist in /var/www/html/riafo/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+#0 /var/www/html/riafo/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php(39): PDOStatement->execute(NULL)
+#1 /var/www/html/riafo/vendor/cakephp/cakephp/src/Database/Connection.php(350): Cake\Database\Statement\MysqlStatement->execute()
+#2 /var/www/html/riafo/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#3 /var/www/html/riafo/vendor/cakephp/cakephp/src/Database/Connection.php(353): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 /var/www/html/riafo/vendor/cakephp/cakephp/src/Database/Connection.php(302): Cake\Database\Connection->query('SHOW FULL COLUM...')
+#5 /var/www/html/riafo/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php(68): Cake\Database\Connection->Cake\Database\{closure}()
+#6 /var/www/html/riafo/vendor/cakephp/cakephp/src/Database/Connection.php(306): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 /var/www/html/riafo/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(131): Cake\Database\Connection->execute('SHOW FULL COLUM...', Array)
+#8 /var/www/html/riafo/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(99): Cake\Database\Schema\Collection->_reflect('Column', 'users', Array, Object(Cake\Database\Schema\TableSchema))
+#9 /var/www/html/riafo/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('users', Array)
+#10 /var/www/html/riafo/vendor/cakephp/cakephp/src/ORM/Table.php(560): Cake\Database\Schema\CachedCollection->describe('users')
+#11 /var/www/html/riafo/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(325): Cake\ORM\Table->getSchema()
+#12 /var/www/html/riafo/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(222): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\UsersTable), Array)
+#13 /var/www/html/riafo/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\UsersTable))
+#14 /var/www/html/riafo/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\UsersTable), 'users', 'Users')
+#15 /var/www/html/riafo/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Users')
+#16 /var/www/html/riafo/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\ModelTask->main('users')
+#17 /var/www/html/riafo/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#18 /var/www/html/riafo/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Cake\Console\Shell->runCommand(Array, true)
+#19 /var/www/html/riafo/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#20 /var/www/html/riafo/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#21 {main}
+
+
+2019-10-04 19:22:05 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/riafo/tmp/cache/models/myapp_cake_model_riafo_users): failed to open stream: Permission denied in [/var/www/html/riafo/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 406]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 406
+Cake\Cache\Engine\FileEngine::delete() - CORE/src/Cache/Engine/FileEngine.php, line 239
+Cake\Cache\SimpleCacheEngine::delete() - CORE/src/Cache/SimpleCacheEngine.php, line 139
+Cake\Cache\Cache::delete() - CORE/src/Cache/Cache.php, line 477
+Cake\Database\SchemaCache::clear() - CORE/src/Database/SchemaCache.php, line 85
+Cake\Shell\SchemaCacheShell::clear() - CORE/src/Shell/SchemaCacheShell.php, line 63
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 518
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+

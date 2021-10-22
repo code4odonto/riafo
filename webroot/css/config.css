@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.container-config {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Work Sans';
+
+}
+.title-opt {
+    font-size: 24px;
+    height: 30px;
+    text-align: center;
+}
+
+select {
+    display: block;
+    margin: 0.6em;
+    width: 80%;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 4px;
+    outline: none;
+    height: 26px;
+}
+button, .berisso {
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    outline: none;
+    border: 2px solid #0cbec7;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 4px;
+}
+
+.container-opt {
+    width: 350px;
+    padding: 4px;
+    box-shadow: 
+    2px 0 0 0 #00dae6, 
+    0 2px 0 0 #00dae6, 
+    2px 2px 0 0 #00dae6,   /* Just to fix the corner */
+    2px 0 0 0 #00dae6 inset, 
+    0 2px 0 0 #00dae6 inset;
+}
+
+.container-wrap {
+    display: flex;
+/*    justify-content: space-around;*/
+/*    width: 900px;*/
+    height: 250px;
+    margin: 6px;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.6);
+}
+
+.primera, .primera-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}  
+
+.primera a, .primera-form button {
+    text-align: center;
+    padding: 6px;
+    height: 40px;
+    width: 160px;
+    margin-top: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+.segunda {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 30px);
+    align-items: center;
+}
+.segunda a {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}  
+
+.tercera {
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+}
+.tercera a {
+    display: inline-block;
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 30px;
+}

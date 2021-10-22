@@ -1,0 +1,119 @@
+2019-09-14 17:45:59 Notice: Deprecated (16384): RouteBuilder::extensions() is deprecated. Use RouteBuilder::setExtensions()/getExtensions() instead. - /var/www/html/riafo/config/routes.php, line: 112
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/var/www/html/riafo/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Routing\RouteBuilder::extensions() - CORE/src/Routing/RouteBuilder.php, line 202
+Cake\Http\BaseApplication::{closure}() - ROOT/config/routes.php, line 112
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 1009
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 1098
+require - ROOT/config/routes.php, line 115
+Cake\Http\BaseApplication::routes() - CORE/src/Http/BaseApplication.php, line 179
+Cake\Console\CommandRunner::loadRoutes() - CORE/src/Console/CommandRunner.php, line 419
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 146
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-09-14 17:50:20 Notice: Deprecated (16384): RouteBuilder::extensions() is deprecated. Use RouteBuilder::setExtensions()/getExtensions() instead. - /var/www/html/riafo/config/routes.php, line: 112
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/var/www/html/riafo/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Routing\RouteBuilder::extensions() - CORE/src/Routing/RouteBuilder.php, line 202
+Cake\Http\BaseApplication::{closure}() - ROOT/config/routes.php, line 112
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 1009
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 1098
+require - ROOT/config/routes.php, line 115
+Cake\Http\BaseApplication::routes() - CORE/src/Http/BaseApplication.php, line 179
+Cake\Console\CommandRunner::loadRoutes() - CORE/src/Console/CommandRunner.php, line 419
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 146
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-09-16 13:47:57 Notice: Deprecated (16384): RouteBuilder::extensions() is deprecated. Use RouteBuilder::setExtensions()/getExtensions() instead. - /var/www/html/riafo/config/routes.php, line: 112
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/var/www/html/riafo/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Routing\RouteBuilder::extensions() - CORE/src/Routing/RouteBuilder.php, line 202
+Cake\Http\BaseApplication::{closure}() - ROOT/config/routes.php, line 112
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 1009
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 1098
+require - ROOT/config/routes.php, line 115
+Cake\Http\BaseApplication::routes() - CORE/src/Http/BaseApplication.php, line 179
+Cake\Console\CommandRunner::loadRoutes() - CORE/src/Console/CommandRunner.php, line 419
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 146
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-09-16 13:51:00 Notice: Deprecated (16384): RouteBuilder::extensions() is deprecated. Use RouteBuilder::setExtensions()/getExtensions() instead. - /var/www/html/riafo/config/routes.php, line: 112
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/var/www/html/riafo/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Routing\RouteBuilder::extensions() - CORE/src/Routing/RouteBuilder.php, line 202
+Cake\Http\BaseApplication::{closure}() - ROOT/config/routes.php, line 112
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 1009
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 1098
+require - ROOT/config/routes.php, line 115
+Cake\Http\BaseApplication::routes() - CORE/src/Http/BaseApplication.php, line 179
+Cake\Console\CommandRunner::loadRoutes() - CORE/src/Console/CommandRunner.php, line 419
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 146
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-09-16 13:51:22 Notice: Deprecated (16384): RouteBuilder::extensions() is deprecated. Use RouteBuilder::setExtensions()/getExtensions() instead. - /var/www/html/riafo/config/routes.php, line: 112
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/var/www/html/riafo/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Routing\RouteBuilder::extensions() - CORE/src/Routing/RouteBuilder.php, line 202
+Cake\Http\BaseApplication::{closure}() - ROOT/config/routes.php, line 112
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 1009
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 1098
+require - ROOT/config/routes.php, line 115
+Cake\Http\BaseApplication::routes() - CORE/src/Http/BaseApplication.php, line 179
+Cake\Console\CommandRunner::loadRoutes() - CORE/src/Console/CommandRunner.php, line 419
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 146
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-09-16 13:59:17 Notice: Deprecated (16384): RouteBuilder::extensions() is deprecated. Use RouteBuilder::setExtensions()/getExtensions() instead. - /var/www/html/riafo/config/routes.php, line: 112
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/var/www/html/riafo/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Routing\RouteBuilder::extensions() - CORE/src/Routing/RouteBuilder.php, line 202
+Cake\Http\BaseApplication::{closure}() - ROOT/config/routes.php, line 112
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 1009
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 1098
+require - ROOT/config/routes.php, line 115
+Cake\Http\BaseApplication::routes() - CORE/src/Http/BaseApplication.php, line 179
+Cake\Console\CommandRunner::loadRoutes() - CORE/src/Console/CommandRunner.php, line 419
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 146
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-09-16 14:35:38 Notice: Deprecated (16384): RouteBuilder::extensions() is deprecated. Use RouteBuilder::setExtensions()/getExtensions() instead. - /var/www/html/riafo/config/routes.php, line: 112
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [/var/www/html/riafo/vendor/cakephp/cakephp/src/Core/functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+deprecationWarning - CORE/src/Core/functions.php, line 311
+Cake\Routing\RouteBuilder::extensions() - CORE/src/Routing/RouteBuilder.php, line 202
+Cake\Http\BaseApplication::{closure}() - ROOT/config/routes.php, line 112
+Cake\Routing\RouteBuilder::scope() - CORE/src/Routing/RouteBuilder.php, line 1009
+Cake\Routing\Router::scope() - CORE/src/Routing/Router.php, line 1098
+require - ROOT/config/routes.php, line 115
+Cake\Http\BaseApplication::routes() - CORE/src/Http/BaseApplication.php, line 179
+Cake\Console\CommandRunner::loadRoutes() - CORE/src/Console/CommandRunner.php, line 419
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 146
+[main] - ROOT/bin/cake.php, line 12
+
+
+
